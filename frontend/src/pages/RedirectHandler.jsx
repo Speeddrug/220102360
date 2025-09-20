@@ -33,7 +33,7 @@ export default function RedirectHandler() {
 
     Log("frontend", "info", "page", `Redirecting shortcode ${shortcode} -> ${link.longUrl}`);
 
-    // Perform redirect
+    
     window.location.href = link.longUrl;
   }, [shortcode, navigate]);
 
