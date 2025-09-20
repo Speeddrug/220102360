@@ -3,7 +3,7 @@ import { Box, Grid, TextField, Button, Typography, Paper, Alert } from '@mui/mat
 import { storageService } from '../services/storageService';
 import { isValidUrl, validateShortcode } from '../utils/urlUtils';
 import { Log } from '@logger/logger';
-import Footer from './footer';
+import Footer from './Footer';
 
 const DOMAIN = 'pragatiurlshortner.com';
 const BACKGROUND_URL = 'https://t4.ftcdn.net/jpg/01/31/15/51/360_F_131155172_4ZVdaT7YF5yJHqircjy59DDxV6aWFds9.jpg';

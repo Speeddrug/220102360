@@ -10,11 +10,11 @@ export default function Footer() {
           <Box sx={{ mb: 2 }}>
             {/* Replace this with your real logo */}
             <Typography variant="h6" sx={{ fontWeight: 'bold', color: '#4F46F6' }}>
-              Pragatiurlshortner
+              TinyShort
             </Typography>
           </Box>
           <Typography variant="body2" color="textSecondary">
-            Pragatiurlshortner is a simple and fast URL shortener to make your links manageable and shareable.
+            TinyShort is a simple and fast URL shortener to make your links manageable and shareable.
           </Typography>
         </Grid>
 
@@ -31,9 +31,9 @@ export default function Footer() {
 
         {/* Newsletter */}
         <Grid item xs={12} sm={6} md={5}>
-          <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>THANK YOUr</Typography>
+          <Typography variant="subtitle1" sx={{ mb: 2, fontWeight: 'bold' }}>Subscribe to our newsletter</Typography>
           <Typography variant="body2" color="textSecondary" sx={{ mb: 1 }}>
-            Get the latest updates and tips for Pragatiurlshortner delivered straight to your inbox.
+            Get the latest updates and tips for TinyShort delivered straight to your inbox.
           </Typography>
           <Box sx={{ display: 'flex', gap: 1, mt: 1 }}>
             <TextField

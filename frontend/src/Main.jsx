@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import ShortenerPage from './pages/ShortenerPage';
 import StatsPage from './pages/StatsPage';
 import RedirectHandler from './pages/RedirectHandler';
